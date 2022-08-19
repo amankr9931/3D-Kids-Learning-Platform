@@ -1,0 +1,122 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Astronomer</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script type="text/javascript" src="https://code.responsivevoice.org/responsivevoice.js"></script>
+
+        <style>
+            div#main {
+                border: solid 2px rgb(212, 165, 230);
+                margin-left: 450px;
+                width: 1050px;
+                height: 650px;
+                margin-top:50px;
+                position: absolute;
+                 }
+                div#sidebar {
+                    margin-top:50px;
+                    margin-left: 50px;
+                background-color: rgb(233, 221, 245);
+                width: 400px;
+                position: absolute;
+                height: 650px;
+                
+                }
+
+                .button {
+                    width:60px;
+                    height:60px;
+                    margin-right:10px;
+                    margin-left:10px;
+                    margin-top:15px;
+                    padding: 15px 25px;
+                    font-size: 24px;
+                    text-align: center;
+                    cursor: pointer;
+                    outline: none;
+                    color: rgb(148, 57, 175);
+                    background-color: #ffffff;
+                    border: none;
+                    border-radius: 15px;
+                    box-shadow: 5px 5px rgb(184, 174, 186);
+                  }
+                  
+                  .button:hover {background-color: #ebebeb}
+                  
+                  .button:active {
+                    background-color: #d7bee7;
+                    box-shadow: 5px 5px #666;
+                    transform: translateY(4px);
+                  }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript" src="https://code.responsivevoice.org/responsivevoice.js"></script>
+
+    <div id="main1">
+            <h1>A = Astronaut</h1>
+            <div id="card">
+                <model-viewer src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948"
+      ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
+      poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
+      alt="A 3D model of an astronaut"
+      shadow-intensity="1"
+      camera-controls
+      auto-rotate ar>
+</model-viewer>
+</div>
+</div> -->
+<div id = "sidebar" >
+    <button class="button" onclick="speakText()">A</button>
+    <button class="button">B</button>
+    <button class="button">C</button>
+    <button class="button">D</button>
+    <button class="button">E</button>
+    <button class="button">F</button>
+    <button class="button">G</button>
+    <button class="button">H</button>
+    <button class="button">I</button>
+    <button class="button">J</button>
+    <button class="button">K</button>
+    <button class="button">L</button>
+    <button class="button">M</button>
+    <button class="button">N</button>
+    <button class="button">O</button>
+    <button class="button">P</button>
+    <button class="button">Q</button>
+    <button class="button">R</button>
+    <button class="button">S</button>
+    <button class="button">T</button>
+    <button class="button">U</button>
+    <button class="button">V</button>
+    <button class="button">W</button>
+    <button class="button">X</button>
+    <button class="button">y</button>
+    <button class="button">z</button>
+
+    </div>
+
+    <div id = "main" >
+        <div id="card">
+            <model-viewer src="RobotExpressive.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+
+</div>
+    
+    </div>
+
+    <script>
+        function speakText(){
+           
+            var text = "this is an Astronaut";
+            responsiveVoice.speak(text);
+            
+        }
+    </script>
+    </body>
+</html>
