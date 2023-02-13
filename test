@@ -1,0 +1,60 @@
+[
+{
+"driveId": "101",
+"fteDrive": "01/03/2023",
+"marketUnit": "ADM",
+"accountName": "Credit Suisse",
+"skillFamily": "Java",
+"location": "Pune"
+},
+{
+"driveId": "101",
+"fteDrive": "02/03/2023",
+"marketUnit": "MDU",
+"accountName": "Credit Suisse",
+"skillFamily": "Java",
+"location": "Pune"
+},
+{
+"driveId": "101",
+"fteDrive": "01/03/2023",
+"marketUnit": "CIS",
+"accountName": "Credit Suisse",
+"skillFamily": "Java",
+"location": "Pune"
+},
+{
+"driveId": "101",
+"fteDrive": "01/03/2023",
+"marketUnit": "CS",
+"accountName": "Credit Suisse",
+"skillFamily": "Java",
+"location": "Pune"
+},
+{
+"driveId": "101",
+"fteDrive": "01/03/2023",
+"marketUnit": "AIML",
+"accountName": "Credit Suisse",
+"skillFamily": "Java",
+"location": "Bangolre"
+},
+{
+"driveId": "101",
+"fteDrive": "01/03/2023",
+"marketUnit": "CSD",
+"accountName": "Lenevo",
+"skillFamily": "Java",
+"location": "Chennai"
+},
+{
+"driveId": "101",
+"fteDrive": "01/03/2023",
+"marketUnit": "FRE",
+"accountName": "John deer",
+"skillFamily": "Java",
+"location": "Mumbai"
+},
+
+
+]
